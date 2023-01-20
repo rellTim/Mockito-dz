@@ -17,6 +17,23 @@ public class Location {
         this.builing = builing;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Location location = (Location) obj;
+        return country == location.country
+                && (city == location.city
+                || (city != null && city.equals(location.getCity()))) && (street == location.street
+                || (street != null && street.equals(location.getStreet())
+        ));
+    }
+
     public String getCity() {
         return city;
     }
