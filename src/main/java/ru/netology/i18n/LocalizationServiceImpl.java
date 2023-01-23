@@ -1,6 +1,6 @@
 package ru.netology.i18n;
 
-import ru.netology.entity.Country;
+import ru.netology.i18n.entity.Country;
 
 public class LocalizationServiceImpl implements LocalizationService {
 

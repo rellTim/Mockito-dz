@@ -1,4 +1,4 @@
-package ru.netology.entity;
+package ru.netology.i18n.entity;
 
 public class Location {
 

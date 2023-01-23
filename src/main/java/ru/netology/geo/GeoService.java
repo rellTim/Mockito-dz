@@ -1,6 +1,6 @@
 package ru.netology.geo;
 
-import ru.netology.entity.Location;
+import ru.netology.i18n.entity.Location;
 
 public interface GeoService {
 

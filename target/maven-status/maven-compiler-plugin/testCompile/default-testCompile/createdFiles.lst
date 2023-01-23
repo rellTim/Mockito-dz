@@ -1,1 +1,3 @@
-byIpTest.class
+LocalizationServiceTest.class
+GeoServiceTest.class
+MessengerTest.class
